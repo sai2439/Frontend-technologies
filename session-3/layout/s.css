@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+.header{
+    background-color: beige;
+    color: blue;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    color: blue;
+    font-size: 1.4rem;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main{
+    min-height: 100vh;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    color:blue ;
+    padding: 40px;
+}
+
+.main img{
+    width: 300px;
+    height: 300px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

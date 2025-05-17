@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_960,q_50/lsci/db/PICTURES/CMS/400200/400249.6.jpg");
+}
+#h1{
+    color: rgb(0, 255, 13);
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 5px black;
+    letter-spacing: 10px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+
+#h2{
+    color:burlywood;
+    background-color: black;
+}
+
+.H1{
+    color:rgb(10, 60, 225,50%);
+    line-height: 30px;
+   
+}

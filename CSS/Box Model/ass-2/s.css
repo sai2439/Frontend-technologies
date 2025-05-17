@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+#Navbar{
+    height: 60px;
+    background-color: #0f1111;
+    padding-top: 10px;
+   
+}
+
+button{
+    background-color: #f08804;
+}
+
+#Logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 150px;
+     text-decoration: none;
+}
+
+.contentBox{
+    width: 100px;
+    height: 100px;
+}

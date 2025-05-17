@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    text-align: center;
+    padding: 50px;
+    background-color: grey;
+}
+
+.footer{
+    text-align: center;
+    padding: 50px;
+    background-color: grey;
+}
+
+.employee{
+    width: 300px;
+   /* border: 1px solid black;*/
+   box-shadow: 2px 2px 5px grey;
+   border-radius: 10px;
+   background-color: bisque;
+    margin: 100px 0px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.employee img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.header{
+    margin-bottom: 100px;
+
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.name{
+    font-size: 2rem;
+    color: black;
+}
+.about,.intrst{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+:root{
+    --ccs:rgb(100, 75, 50, 100%)
+}
+
+h1{
+    color:var(--ccs)
+
+}
+
+h2{
+    color: var(--amber-color);
+}

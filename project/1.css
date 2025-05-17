@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    background-color: blueviolet;
+
+}
+.spn-1{
+    background-color: chartreuse;
+    font-size: 50px;
+}
+.spn-2{
+    background-color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+div{
+    background-color: brown;
+    border: 5px dotted black;
+    border-radius: 20px;
+}

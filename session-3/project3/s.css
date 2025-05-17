@@ -1,0 +1,30 @@
+.parent{
+    max-width: 600px;
+    height: 600px;
+    border: 2px solid blue;
+    margin: auto;
+    /* add flex container */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.child1,.child2,.child3{
+    width: 100px;
+    height: 100px;
+}
+
+.child1{
+    background-color: crimson;
+}
+
+.child2{
+    background-color:beige ;
+    
+}
+
+.child3{
+    background-color: brown;
+    
+}

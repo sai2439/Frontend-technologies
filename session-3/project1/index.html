@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./s.css">
+    <link rel="stylesheet" href="../../global.css">
+</head>
+<body>
+    <table>
+        <!-- table header -->
+         <thead>
+              <tr>
+                <th>NO.</th>
+                <th>Full name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+         </thead>
+         <!-- table body -->
+          <tbody>
+               <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>CEO</td>
+                <td>$7000</td>
+               </tr>
+               <tr>
+                <td>2</td>
+                <td>sundar</td>
+                <td>Manager</td>
+                <td>$6000</td>
+               </tr>
+
+               <tr>
+                <td>3</td>
+                <td>pullaro</td>
+                <td>supervisor</td>
+                <td>$7000</td>
+               </tr>
+               <tr>
+                <td>4</td>
+                <td>venkatrao</td>
+                <td>Devloper</td>
+                <td>$7000</td>
+               </tr>
+          </tbody>
+    </table>
+
+    <!-- table rowsspan -->
+     <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">Vikas</td>
+                <td>Maths</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <!-- <td>1</td> -->
+                <!-- <td>Vikas</td> -->
+                <td>physics</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <!-- <td>1</td> -->
+                <!-- <td>Vikas</td> -->
+                <td>chemistry</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Alex</td>
+                <td>maths</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <!-- <td>2</td> -->
+                <!-- <td>Alex</td> -->
+                <td>physics</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <!-- <td>2</td> -->
+                <!-- <td>Alex</td> -->
+                <td>chemistry</td>
+                <td>90</td>
+            </tr>
+            
+            
+            
+        </tbody>
+     </table>
+
+     <!-- tablw with cols span -->
+      <table>
+        <thead>
+            <th>Name</th>
+            <th>Expenses</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Arun</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Priya</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td colspan="2">sum=300</td>
+                <!-- <td>300</td> -->
+            </tr>
+        </tbody>
+      </table>
+</body>
+</html>
